@@ -1,0 +1,53 @@
+// General initial conditions for all elements
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Charlie-regular;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+// html {
+//     font-family: montserrat;
+//     line-height: 1.6;
+//     color: $clr2;
+// }
+
+// body {
+// font-size: rem(18px);
+// max-width: 1024px;
+// margin: auto;
+// }
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    // overflow: hidden;
+}
+
+// h1, h2, h3, h4, h5, h6 {
+//     font-family: caveat;
+//     margin: 0 0 0.6em;
+//     line-height: 1;
+// }

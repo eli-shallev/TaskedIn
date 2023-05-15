@@ -1,0 +1,28 @@
+.board-color-picker {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    translate: 150%;
+    height: 0;
+
+    &.open {
+        translate: 0;
+        transition: translate 0.3s;
+        height: auto;
+    }
+
+    .style-item {
+        width: 152.5px;
+        height: 96px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        @for $i from 1 through 10 {
+            &.item#{$i}:hover {
+                background-color: nth($board-colors-hover, $i) !important;
+            }
+        }
+    }
+}

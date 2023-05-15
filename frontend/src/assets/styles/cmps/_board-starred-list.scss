@@ -1,0 +1,63 @@
+.board-starred-list {
+    position: absolute;
+    background-color: $clr6;
+    width: 300px;
+    padding: 12px;
+    list-style: none;
+    z-index: 2;
+    border: 1px solid $clr9;
+    border-radius: 0.2em;
+    outline: none;
+
+    &.empty-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        height: 32px;
+        margin-bottom: 0.5em;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(128, 128, 128, 0.1);
+        }
+
+        .board-display {
+            width: 40px;
+            height: 32px;
+            border-radius: 0.2em;
+        }
+
+        .board-title {
+            padding-left: 8px;
+            flex-grow: 1;
+            color: black;
+        }
+
+        .btn-star {
+            color: $clr10;
+            position: relative;
+            margin-right: 1em;
+
+            &:hover .filled-star {
+                opacity: 0;
+            }
+
+            .filled-star,
+            .outline-star {
+                position: absolute;
+                top: 20%;
+            }
+
+
+        }
+    }
+
+    @media (max-width:500px) {
+        left: 32px !important;
+    }
+}

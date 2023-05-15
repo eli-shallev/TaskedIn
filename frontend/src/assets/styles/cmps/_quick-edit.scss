@@ -1,0 +1,30 @@
+
+.quick-edit-icon {
+    position: absolute;
+    top: 2px;
+    right: 6.5px;
+    height: 28px;
+    width: 28px;
+    font-size: 12px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #42526e;
+    background-color: #f4f5f7;
+    opacity: 0.8;
+    display: none;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+.task-preview{
+    &:hover{
+        .quick-edit-icon{
+            display: flex;
+        }
+    }
+  
+}
+

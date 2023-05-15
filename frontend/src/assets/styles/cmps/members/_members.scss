@@ -1,0 +1,136 @@
+.members {
+    padding: 0 12px 12px;
+    max-height: 400px;
+
+    .search-member {
+        padding: 8px 12px;
+        height: 36px;
+        width: 100%;
+        margin-bottom: 12px;
+        border: none;
+        outline: none;
+        background-color: #fafbfc;
+        box-shadow: inset 0 0 0 2px #dfe1e6;
+        border-radius: 3px;
+        &:hover {
+            background-color: #ebecf0;
+        }
+
+        &:focus {
+            background-color: #fff;
+        border: none;
+
+            box-shadow: inset 0 0 0 2px #0079bf;
+        }
+    }
+
+    .sub-header {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        color: #5e6c84;
+        margin-bottom: 8px;
+    }
+
+    .members-list {
+        padding-inline-start: 0;
+        margin: 0;
+    }
+
+    .member-container {
+        height: 38px;
+        line-height: 32px;
+        border-radius: 3px;
+        padding: 6px 4px;
+        margin-bottom: 2px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 0 2px;
+
+        &:hover {
+            background-color: #091e420a;
+            cursor: pointer;
+        }
+
+
+
+        .member-img {
+            height: 32px;
+            object-fit: cover;
+            width: 32px;
+            margin-inline-end: 8px;
+
+            img {
+                border-radius: 25em;
+                height: 32px;
+                object-fit: cover;
+                width: 32px;
+            }
+        }
+
+        .member-fullname {
+            font-size: 14px;
+            color: #172b4d;
+            line-height: 32px;
+        }
+
+        .checked-icon {
+            padding: 8px;
+            display: flex;
+            justify-content: flex-end;
+            color: #42526e;
+            flex: 1;
+        }
+    }
+}
+
+.task-members-subheader {
+    margin-bottom: 8px;
+
+    .title {
+        color: #5e6c84;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        margin: 0 8px 4px 0;
+        width: 100%;
+    }
+
+    .members-container {
+        display: flex;
+        gap: 0.2rem;
+        height: 32px;
+        align-items: center;
+        margin-right: 12px;
+
+        img {
+            width: 32px;
+            border-radius: 50%;
+        }
+
+        .member-img {
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+
+        .btn-add-member {
+            margin: 0;
+            align-items: center;
+            border-radius: 100%;
+            background-color: #ebecef;
+            color: #42526e;
+            display: flex;
+            font-size: 17px;
+            height: 32px;
+            justify-content: center;
+            width: 32px;
+
+            &:hover {
+                background-color: #e1e4e9
+            }
+        }
+    }
+}

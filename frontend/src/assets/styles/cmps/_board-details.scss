@@ -1,0 +1,59 @@
+.board-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-x: visible;
+    overflow-y: hidden;
+
+    .board-content {
+        display: flex;
+        padding-left: 4px;
+        padding-top: 48px;
+        position: relative;
+        width: 100%;
+        margin-top: 4px;
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-grow: 1;
+
+        &::-webkit-scrollbar {
+            height: 12px;
+        }
+
+        &::-webkit-scrollbar-button {
+            display: none;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 0.5em;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 0.3em;
+        }
+
+        .group-add-container {
+            position: relative;
+        }
+
+        .btn-open-addGroup {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: whitesmoke;
+            min-width: 270px;
+            text-align: start;
+            border-radius: 0.2em;
+            height: 40px;
+            padding-left: 1em;
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+            cursor: pointer;
+            margin-left: 4px;
+            margin-right: 8px;
+        }
+    }
+}

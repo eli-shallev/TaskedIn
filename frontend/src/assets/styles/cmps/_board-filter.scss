@@ -1,0 +1,17 @@
+.board-filter{
+    width: 100%;
+
+    .MuiFormControl-root{
+        width: 100%;
+    }
+
+    .form-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .form-item-search{
+            margin-right: 0.5em;
+        }
+    }
+}

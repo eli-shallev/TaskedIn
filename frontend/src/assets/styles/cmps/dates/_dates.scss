@@ -1,0 +1,176 @@
+.date-save-btn {
+    width: 90%;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0 1rem 0.5rem 1rem;
+    &:hover {
+        background-color: #026aa7;
+    }
+}
+
+.date-remove-btn {
+    width: 90%;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0 1rem 1rem 1rem;
+    background-color: rgba(9,30,66,.04);
+    color: #172b4d;
+    &:hover {
+        background-color: rgba(9,30,66,.08);
+    }
+}
+
+.task-dates-subheader {
+    margin-left: 40px;
+    h3.task-dates-subheader-title {
+      font-size: 12px;
+      color: #5e6c84;
+      margin-block-end: 4px;
+    }
+  
+    .due-date-badge {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin: 0 8px 8px 0;
+  
+      
+  
+      .checkbox {
+        height: 14px;
+        width: 14px;
+        margin: auto 4px auto 0;
+        cursor: pointer;
+        border-color: #dfe1e5;
+        border-radius: 3px;
+       
+      }
+  
+      .due-date-container {
+        button {
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          padding: 6px 12px;
+          background-color: rgba(9, 30, 66, 0.04);
+          border-radius: 3px;
+          color: #172b4d;
+  
+          &:hover {
+            background-color: rgba(9, 30, 66, 0.08);
+          }
+  
+          &:active:hover {
+            background-color: #e4f0f5;
+            color: rgb(0, 121, 192);
+          }
+  
+          svg {
+            font-size: 20px;
+            margin-left: 4px;
+          }
+  
+          .overdue {
+            background-color: #ec9488;
+            color: #fff;
+          }
+  
+          .soon {
+            background-color: #f2d600;
+            color: #172b4d;
+          }
+  
+          .completed {
+            background-color: #61bd4f;
+            color: #fff;
+          }
+  
+          .due-msg{
+            border-radius: 2px;
+            font-size: 12px;
+            line-height: 16px;
+            padding: 0 4px;
+            margin: auto 0 auto 8px;
+          }
+        }
+      }
+    }
+  }
+  .date-container {
+    display: flex;
+    align-items: center;
+    color: #5e6c84;
+
+    &.completed {
+      background-color: #61bd4f;
+      color: white;
+      border-radius: 3px;
+
+      &:hover {
+        background-color: #519839;
+
+        .checkbox-icon {
+          display: none;
+        }
+
+        .done-checkbox-icon {
+          display: flex;
+        }
+      }
+    }
+
+    &.overdue {
+      background-color: #ec9488;
+      color: white;
+      border-radius: 3px;
+
+      &:hover {
+        background-color: #eb5a46;
+      }
+    }
+
+    &.duesoon {
+      background-color: #f2d600;
+      color: white;
+      border-radius: 3px;
+
+      &:hover {
+        background-color: #d9b51c;
+      }
+    }
+
+    &:hover {
+      .clock-icon {
+        display: none;
+      }
+
+      .checkbox-icon {
+        display: flex;
+      }
+    }
+
+    .clock-icon {
+      display: flex;
+      align-items: center;
+    }
+
+    .checkbox-icon {
+      display: none;
+      align-items: center;
+
+      svg {
+        font-size: 18px;
+        margin-inline-end: 2px;
+      }
+    }
+
+    .done-checkbox-icon {
+      display: none;
+      align-items: center;
+    }
+
+    svg {
+      font-size: 16px;
+      margin-inline-end: 4px;
+    }
+  }

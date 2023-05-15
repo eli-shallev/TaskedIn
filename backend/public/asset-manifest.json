@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c5d9539.css",
+    "main.js": "/static/js/main.f96a2bca.js",
+    "static/media/board-bg2.jpg": "/static/media/board-bg2.59b22f41cccb830c82b5.jpg",
+    "static/media/board-bg1.jpg": "/static/media/board-bg1.c69b35221e00bbc8815b.jpg",
+    "static/media/board-bg4.jpg": "/static/media/board-bg4.7e905691a27e7c1ed5ae.jpg",
+    "static/media/board-bg3.jpg": "/static/media/board-bg3.9318e50c00d9c55fd77d.jpg",
+    "static/media/recent-loader.webp": "/static/media/recent-loader.d9dc0fd2e1f95b4cc69a.webp",
+    "static/media/trello-ui-collage.webp": "/static/media/trello-ui-collage.845b652fadf993ce6a92.webp",
+    "static/media/trello-ui-boards-lists-cards.jpg": "/static/media/trello-ui-boards-lists-cards.26d4a81649cab1824e96.jpg",
+    "static/media/background2.jpg": "/static/media/background2.dc0d6ef1689748964ef3.jpg",
+    "static/media/trello hit deadlines.jpg": "/static/media/trello hit deadlines.a5a05e7b01b3cd1e5f0a.jpg",
+    "static/media/trello-stay-on-top-of-tasks.jpg": "/static/media/trello-stay-on-top-of-tasks.7b384e9d2be49bb41284.jpg",
+    "static/media/CharlieDisplay-Bold.ttf": "/static/media/CharlieDisplay-Bold.5a004353b62f47fcd234.ttf",
+    "static/media/CharlieDisplay-Light.ttf": "/static/media/CharlieDisplay-Light.b666ab49be54a1929c68.ttf",
+    "static/media/CharlieDisplay-Regular.ttf": "/static/media/CharlieDisplay-Regular.a2a3c582da84941794e4.ttf",
+    "static/media/CharlieDisplay-Thin.ttf": "/static/media/CharlieDisplay-Thin.3617e9502a99ee7ee945.ttf",
+    "static/media/man.svg": "/static/media/man.9ae463815d435e021124.svg",
+    "static/media/login-left-img.png": "/static/media/login-left-img.80acf5bf6ca0fcd3ef98.png",
+    "static/media/login-right-img.png": "/static/media/login-right-img.bc046daf80f5d61a14e2.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/upload-loader.gif": "/static/media/upload-loader.01b22d1dc21e0c6111cd.gif",
+    "static/media/background3.jpg": "/static/media/background3.0955609aa87ec528cd62.jpg",
+    "static/media/bg-photos.png": "/static/media/bg-photos.886afa4a3591eb99fbe8.png",
+    "static/media/no-starred-boards.png": "/static/media/no-starred-boards.02b4cd205d14d03f6baf.png",
+    "static/media/new-logo.png": "/static/media/new-logo.949febcd225bce2d0a48.png",
+    "static/media/Moisson_Avatar.png": "/static/media/Moisson_Avatar.ae8234e08611024fbfaf.png",
+    "static/media/ViewsBackground_Left_Narrow.svg": "/static/media/ViewsBackground_Left_Narrow.eb31e84eb9e5352b81ea.svg",
+    "static/media/ViewsBackground_Right_Narrow.svg": "/static/media/ViewsBackground_Right_Narrow.1106ff80ff7734c23e9f.svg",
+    "index.html": "/index.html",
+    "static/media/trello-icon-gradient-blue.svg": "/static/media/trello-icon-gradient-blue.373f46df7b8900d8efc1.svg",
+    "static/media/white-wave-bg.svg": "/static/media/white-wave-bg.974bc409085f971a4ec4.svg",
+    "main.5c5d9539.css.map": "/static/css/main.5c5d9539.css.map",
+    "main.f96a2bca.js.map": "/static/js/main.f96a2bca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c5d9539.css",
+    "static/js/main.f96a2bca.js"
+  ]
+}

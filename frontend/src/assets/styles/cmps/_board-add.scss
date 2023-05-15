@@ -1,0 +1,129 @@
+.board-add {
+    position: absolute;
+    z-index: 2;
+    background-color: $clr6;
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    max-width: 280px;
+    color: $clr45;
+
+    .borad-add-header{
+        display: flex;
+        .title{
+            flex-grow: 1;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .btn-close {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: none;
+            margin: 0;
+            padding: 0;
+            svg{
+                color: red !important;
+                font-size: 24px;
+            }
+        }
+    }
+    
+
+    .board-preview-img {
+
+        height: 160px;
+        background-image: url('../../img/board-preview.png');
+        background-size: cover;
+        border-radius: 0.3em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        .input-title {
+            height: 35px;
+            width: 100%;
+            align-self: center;
+
+            &:hover {
+                background-color: $clr9;
+            }
+
+            &:focus {
+                outline-color: $clr1 ;
+            }
+
+            &.empty {
+                border-color: red;
+
+                &:focus {
+                    outline-color: red;
+                }
+            }
+        }
+
+        .btn-create {
+            height: 30px;
+            width: 100%;
+            align-self: center;
+
+            &:disabled {
+                background-color: $clr8;
+                color: $clr9;
+                cursor: not-allowed;
+            }
+        }
+    }
+
+    .styles {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 0.3em;
+
+        .style-item {
+            width: 40px;
+            height: 30px;
+            border-radius: 0.3em;
+            cursor: pointer;
+
+            @for $i from 1 through 6 {
+                &.item#{$i}:hover {
+                    background-color: nth($board-colors-hover, $i) !important;
+                }
+            }
+        }
+    }
+
+    .styles-img {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.3em;
+        margin-bottom: 0.5em;
+
+        .style-img {
+            width: 60px;
+            height: 30px;
+            border-radius: 0.3em;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.2);
+            }
+
+            @for $i from 1 through 4 {
+                &.img#{$i} {
+                    background-image: url('../../img/board-bg#{$i}.jpg') !important;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+
+    @media (max-width:500px) {
+        left: 44px !important;
+        top: 100px !important;
+    }
+}

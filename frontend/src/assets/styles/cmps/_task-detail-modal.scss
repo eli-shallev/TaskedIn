@@ -1,0 +1,45 @@
+.task-details-modal {
+  position: fixed;
+  min-width: 304px;
+  background-color: #fff;
+  border-radius: 3px;
+  z-index: 100;
+  box-shadow: 0 8px 16px -4px #091e4240, 0 0 0 1px #091e4214;
+
+  .task-modal-title {
+    color: #5e6c84;
+    height: 40px;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 12px 8px;
+    border-bottom: 1px solid #091e4221;
+
+    p {
+
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+
+    span {
+      position: absolute;
+      font-size: 1.2rem;
+      right: 9px;
+      top: 2px;
+      color: #6b778c;
+
+      &:hover {
+        cursor: pointer;
+        color: #172b4d;
+      }
+    }
+  }
+
+  @media (max-width:500px) {
+    left: 50% !important;
+    translate: -50%;
+    top: 50% !important;
+    transform: translateY(-50%);
+  }
+}

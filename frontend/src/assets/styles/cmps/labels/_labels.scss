@@ -1,0 +1,272 @@
+.labels {
+    .search-label {
+        background-color: #fafbfc;
+        height: 36px;
+        margin-bottom: 12px;
+        padding: 8px 12px;
+        transition-duration: 85ms;
+        transition-property: background-color, border-color, box-shadow;
+        transition-timing-function: ease;
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+        box-shadow: inset 0 0 0 2px #dfe1e6;
+        color: #172b4d;
+        font-size: .875rem;
+        outline: none;
+
+        &:focus {
+            background-color: #fff;
+            box-shadow: inset 0 0 0 2px #0079bf;
+        }
+    }
+
+    ul {
+        margin-top: 12px;
+        padding-inline-start: 10px;
+        position: relative;
+
+        li {
+            display: flex;
+            margin-bottom: 4px;
+
+            .checkbox-container {
+                cursor: pointer;
+                display: block;
+                font-size: 22px;
+                padding-left: 35px;
+                position: relative;
+                user-select: none;
+                width: 100%;
+
+                .checkbox {
+                    cursor: pointer;
+                    height: 0;
+                    opacity: 0;
+                    position: absolute;
+                    width: 0;
+                    border-color: #dee1e5;
+                    border-radius: 3px;
+                    left: 0;
+                    border: none;
+                    box-shadow: inset 0 0 0 2px #dfe1e6;
+                }
+
+                .checkmark {
+                    background-color: $clr6;
+                    height: 16px;
+                    left: 0;
+                    position: absolute;
+                    top: 7.5px;
+                    width: 16px;
+                    border: 1px solid lightgray;
+
+                    svg{
+                        position: absolute;
+                        top: -4px;
+                        left: -4px;
+                        color: $clr6 !important;
+                    }
+
+                    &.checked{
+                        background-color: #2196f3;
+                    }
+
+                    :after {
+                        border: solid #fff;
+                        border-width: 0 2.4px 2.4px 0;
+                        height: 10px;
+                        left: 5.5px;
+                        -webkit-transform: rotate(45deg);
+                        transform: rotate(45deg);
+                        width: 3px;
+
+                    }
+                }
+
+            }
+        }
+
+        .label-container {
+            height: 32px;
+            position: relative;
+            width: 100%;
+
+            .label-color {
+                align-items: center;
+                border-radius: 3px;
+                display: flex;
+                height: 32px;
+                left: 0;
+                position: absolute;
+                width: 98%;
+
+                &-circle {
+                    border-radius: 50%;
+                    height: 16px;
+                    margin-inline-start: 7px;
+                    opacity: 1;
+                    width: 16px;
+                    z-index: 10;
+                }
+
+                .label-title {
+                    font-size: 12.5px;
+                    margin-inline-start: 10px;
+                    cursor: pointer;
+                    user-select: none;
+                }
+            }
+        }
+
+        button {
+            align-items: center;
+            background-color: transparent;
+            display: flex;
+            font-size: 19px;
+            justify-content: flex-end;
+            padding: 8px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-family: inherit;
+            margin: 0;
+
+            &:hover {
+                background-color: #ecedf0;
+            }
+
+
+        }
+
+
+    }
+
+    .create {
+        color: #172a4d;
+        background-color: #f2f2f3;
+        font-size: 14px;
+        height: 32px;
+        padding: 6px 12px;
+        width: 280px;
+
+        &:hover {
+            background-color: #ecedf0;
+        }
+    }
+
+}
+
+.members-labels-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    margin-left: 40px;
+
+    .task-labels-subheader {
+        .title {
+            color: #5e6c84;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            margin: 0 8px 4px 0;
+            width: 100%;
+        }
+
+        .labels-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+
+            .btn-add-label {
+                align-items: center;
+                color: #42526e;
+                background-color: #ebecef;
+                display: flex;
+                font-size: 17px;
+                height: 32px;
+                justify-content: center;
+                width: 32px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                font-family: inherit;
+                margin: 0;
+
+                &:hover {
+                    background-color: #e1e4e9;
+                }
+            }
+        }
+    }
+
+    .btn-label {
+        color: #172b4d;
+        align-items: center;
+        display: flex;
+        font-size: 14px;
+        font-weight: 400;
+        height: 32px;
+        padding-inline-end: 12px;
+        padding-inline-start: 7px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+
+
+        .color-circle {
+            border-radius: 50%;
+            height: 16px;
+            margin-inline-end: 7px;
+            width: 16px;
+
+        }
+    }
+}
+
+.task-labels-list {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    padding-top: 5px;
+
+    &.large {
+        margin-bottom: 4px;
+    }
+
+    .label-container {
+        height: 16px;
+    }
+
+    .task-labels-preview {
+        height: 8px;
+        border-radius: 4px;
+        min-width: 40px;
+        transition: width, height 0.45s ease-out;
+        display: flex;
+        align-items: center;
+        padding-inline-end: 8px;
+
+        .color-circle {
+            border-radius: 50%;
+            height: 8px;
+            margin: 4px;
+            width: 8px;
+        }
+
+        span{
+            font-size: 12px;
+        }
+    }
+
+    .large {
+        height: 16px;
+        min-width: 56px;
+    }
+
+}

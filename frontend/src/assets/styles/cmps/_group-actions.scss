@@ -1,0 +1,57 @@
+.group-actions {
+    position: absolute;
+    border: 1px solid lightgray;
+    z-index: 1;
+    background-color: lighten($clr8, 5);
+    left: 80%;
+    top: 3em;
+    width: 280px;
+    border-radius: 0.3em;
+    padding-bottom: 8px;
+
+    hr {
+        margin: 0 0.5em;
+        margin-bottom: 8px;
+    }
+
+    .actions-title {
+        text-align: center;
+        color: #5e6c84;
+        height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .btn-copy-group,
+    .btn-remove-group {
+        padding: 0.5em;
+        cursor: pointer;
+        color: #172B4D;
+        font-size: 14px;
+
+        &:hover {
+            background-color: rgba(128, 128, 128, 0.2);
+        }
+    }
+
+    .btn-close-actions {
+        background: none;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width:500px) {
+    .group-actions {
+        position: fixed;
+        top: 130px;
+        left: 50px;
+    }
+}

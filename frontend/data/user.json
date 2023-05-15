@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "u101",
+        "fullname": "Elon Barzani",
+        "username": "Elon@gmail.com",
+        "password": "el12345",
+        "imgUrl": "http://some-img.jpg",
+        "mentions": [
+            {
+                "id": "m101",
+                "boardId": "m101",
+                "taskId": "t101"
+            }
+        ]
+    },
+    {
+        "_id": "u102",
+        "fullname": "Yossef Nahari",
+        "username": "Yossef@Nahari.com",
+        "password": "yn12345",
+        "imgUrl": "http://some-img.jpg",
+        "mentions": [
+            {
+                "id": "m101",
+                "boardId": "m101",
+                "taskId": "t101"
+            }
+        ]
+    },
+    {
+        "_id": "u103",
+        "fullname": "Alex Okin",
+        "username": "Alex@Okin.com",
+        "password": "ao12345",
+        "imgUrl": "http://some-img.jpg",
+        "mentions": [
+            {
+                "id": "m101",
+                "boardId": "m101",
+                "taskId": "t101"
+            }
+        ]
+    },
+    {
+        "_id": "u104",
+        "fullname": "Eli Shallev",
+        "username": "Eli@Shallev.com",
+        "password": "es12345",
+        "imgUrl": "http://some-img.jpg",
+        "mentions": [
+            {
+                "id": "m101",
+                "boardId": "m101",
+                "taskId": "t101"
+            }
+        ]
+    }
+]

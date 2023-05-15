@@ -1,0 +1,55 @@
+.task-preview-icons {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    gap: 3px;
+    justify-content: space-between;
+    width: 100%;
+
+    .task-left-icons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3.8px;
+        margin-left: -2px;
+
+        &>* {
+            margin: 4px 0 0 0;
+            padding: 2px 6px;
+        }
+
+        .attachments-icon {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 3px;
+            color: #5e6c84;
+
+            &.done {
+                background-color: #61bd4f;
+                color: white;
+            }
+        }
+    }
+
+    .members-img {
+        display: flex;
+        flex: 1 1;
+        justify-content: flex-end;
+
+        .member-img {
+            height: 28px;
+            margin: 4px 0 0 4px;
+            width: 28px;
+
+
+        }
+
+        img {
+            border-radius: 25em;
+            width: 100%;
+        }
+    }
+
+}

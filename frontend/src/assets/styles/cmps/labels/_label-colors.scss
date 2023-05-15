@@ -1,0 +1,664 @@
+//////////////////////////////////////////// Colors with Hover ////////////////////////////////////////////
+
+.light-green-hoverable {
+    background-color: #bfddb4;
+    &:hover {
+      background-color: #7bc86c;
+    }
+  }
+  
+  .green-hoverable {
+    background-color: #8dc676;
+    &:hover {
+      background-color: #59ac4476;
+    }
+  }
+  
+  .dark-green-hoverable {
+    background-color: #6eaa52;
+    &:hover {
+      background-color: #49852d;
+    }
+  }
+  
+  .light-blue-hoverable {
+    background-color: #97bcd6;
+    &:hover {
+      background-color: #288fca;
+    }
+  }
+  
+  .blue-hoverable {
+    background-color: #59a0cb;
+    &:hover {
+      background-color: #046aa7;
+    }
+  }
+  
+  .dark-blue-hoverable {
+    background-color: #295f92;
+    &:hover {
+      background-color: #0a4c72;
+    }
+  }
+  
+  .light-yellow-hoverable {
+    background-color: #f4ea9d;
+    &:hover {
+      background-color: #f5de29;
+    }
+  }
+  
+  .yellow-hoverable {
+    background-color: #ebd52b;
+    &:hover {
+      background-color: #e6c60a;
+    }
+  }
+  
+  .dark-yellow-hoverable {
+    background-color: #e1c844;
+    &:hover {
+      background-color: #cda42b;
+    }
+  }
+  
+  .light-sky-hoverable {
+    background-color: #a2dde9;
+    &:hover {
+      background-color: #26cce5;
+    }
+  }
+  
+  .sky-hoverable {
+    background-color: #62c6df;
+    &:hover {
+      background-color: #02aecb;
+    }
+  }
+  
+  .dark-sky-hoverable {
+    background-color: #489cb7;
+    &:hover {
+      background-color: #0282a0;
+    }
+  }
+  
+  .light-orange-hoverable {
+    background-color: #f5d3a3;
+    &:hover {
+      background-color: #ffaf3f;
+    }
+  }
+  
+  .orange-hoverable {
+    background-color: #f1a141;
+    &:hover {
+      background-color: #e79216;
+    }
+  }
+  
+  .dark-orange-hoverable {
+    background-color: #e89e22;
+    &:hover {
+      background-color: #b4760e;
+    }
+  }
+  
+  .light-lime-hoverable {
+    background-color: #b3f1d0;
+    &:hover {
+      background-color: #6deca9;
+    }
+  }
+  
+  .lime-hoverable {
+    background-color: #8fe9ae;
+    &:hover {
+      background-color: #4ed582;
+    }
+  }
+  
+  .dark-lime-hoverable {
+    background-color: #6bbf7d;
+    &:hover {
+      background-color: #49aa54;
+    }
+  }
+  
+  .light-red-hoverable {
+    background-color: #e7b5ad;
+    &:hover {
+      background-color: #ef7664;
+    }
+  }
+  
+  .red-hoverable {
+    background-color: #df7c6a;
+    &:hover {
+      background-color: #cf513d;
+    }
+  }
+  
+  .dark-red-hoverable {
+    background-color: #c05945;
+    &:hover {
+      background-color: #933b26;
+    }
+  }
+  
+  .light-pink-hoverable {
+    background-color: #f8c2e4;
+    &:hover {
+      background-color: #ff8fd4;
+    }
+  }
+  
+  .pink-hoverable {
+    background-color: #ee93cf;
+    &:hover {
+      background-color: #e668ae;
+    }
+  }
+  
+  .dark-pink-hoverable {
+    background-color: #c5669d;
+    &:hover {
+      background-color: #ae4270;
+    }
+  }
+  
+  .light-purple-hoverable {
+    background-color: #dfc0eb;
+    &:hover {
+      background-color: #cd8de5;
+    }
+  }
+  
+  .purple-hoverable {
+    background-color: #c490e0;
+    &:hover {
+      background-color: #a86cc1;
+    }
+  }
+  
+  .dark-purple-hoverable {
+    background-color: #9f6fbc;
+    &:hover {
+      background-color: #6c547a;
+    }
+  }
+  
+  .light-black-hoverable {
+    background-color: #535f77;
+    &:hover {
+      background-color: #42536e;
+    }
+  }
+  
+  .black-hoverable {
+    background-color: #374561;
+    &:hover {
+      background-color: #172a4d;
+    }
+  }
+  
+  .dark-black-hoverable {
+    background-color: #0e1e40;
+    &:hover {
+      background-color: #000000;
+    }
+  }
+  
+  //////////////////////////////////////////// Colors ////////////////////////////////////////////
+  
+  .light-green {
+    background-color: #bfddb4;
+  }
+  
+  .light-green-hover {
+    background-color: #7bc86c;
+  }
+  
+  .green {
+    background-color: #8dc676;
+  }
+  
+  .green-hover {
+    background-color: #59ac44;
+  }
+  
+  .dark-green {
+    background-color: #6eaa52;
+  }
+  
+  .dark-green-hover {
+    background-color: #49852d;
+  }
+  
+  .light-blue {
+    background-color: #97bcd6;
+  }
+  
+  .light-blue-hover {
+    background-color: #288fca;
+  }
+  
+  .blue {
+    background-color: #59a0cb;
+  }
+  
+  .blue-hover {
+    background-color: #046aa7;
+  }
+  
+  .dark-blue {
+    background-color: #295f92;
+  }
+  
+  .dark-blue-hover {
+    background-color: #0a4c72;
+  }
+  
+  .light-yellow {
+    background-color: #f4ea9d;
+  }
+  
+  .light-yellow-hover {
+    background-color: #f5de29;
+  }
+  
+  .yellow {
+    background-color: #ebd52b;
+  }
+  
+  .yellow-hover {
+    background-color: #e6c60a;
+  }
+  
+  .dark-yellow {
+    background-color: #e1c844;
+  }
+  
+  .dark-yellow-hover {
+    background-color: #cda42b;
+  }
+  
+  .light-sky {
+    background-color: #a2dde9;
+  }
+  
+  .light-sky-hover {
+    background-color: #26cce5;
+  }
+  
+  .sky {
+    background-color: #62c6df;
+  }
+  
+  .sky-hover {
+    background-color: #02aecb;
+  }
+  
+  .dark-sky {
+    background-color: #489cb7;
+  }
+  .dark-sky-hover {
+    background-color: #0282a0;
+  }
+  
+  .light-orange {
+    background-color: #f5d3a3;
+  }
+  
+  .light-orange-hover {
+    background-color: #ffaf3f;
+  }
+  
+  .orange {
+    background-color: #f1a141;
+  }
+  
+  .orange-hover {
+    background-color: #e79216;
+  }
+  
+  .dark-orange {
+    background-color: #e89e22;
+  }
+  
+  .dark-orange-hover {
+    background-color: #b4760e;
+  }
+  
+  .light-lime {
+    background-color: #b3f1d0;
+  }
+  .light-lime-hover {
+    background-color: #6deca9;
+  }
+  
+  .lime {
+    background-color: #8fe9ae;
+  }
+  
+  .lime-hover {
+    background-color: #4ed582;
+  }
+  
+  .dark-lime {
+    background-color: #6bbf7d;
+  }
+  
+  .dark-lime-hover {
+    background-color: #49aa54;
+  }
+  
+  .light-red {
+    background-color: #e7b5ad;
+  }
+  
+  .light-red-hover {
+    background-color: #ef7664;
+  }
+  
+  .red {
+    background-color: #df7c6a;
+  }
+  
+  .red-hover {
+    background-color: #cf513d;
+  }
+  
+  .dark-red {
+    background-color: #c05945;
+  }
+  
+  .dark-red-hover {
+    background-color: #933b26;
+  }
+  
+  .light-pink {
+    background-color: #f8c2e4;
+  }
+  
+  .light-pink-hover {
+    background-color: #ff8fd4;
+  }
+  
+  .pink {
+    background-color: #ee93cf;
+  }
+  
+  .pink-hover {
+    background-color: #e668ae;
+  }
+  
+  .dark-pink {
+    background-color: #c5669d;
+  }
+  
+  .dark-pink-hover {
+    background-color: #ae4270;
+  }
+  
+  .light-purple {
+    background-color: #dfc0eb;
+  }
+  
+  .light-purple-hover {
+    background-color: #cd8de5;
+  }
+  
+  .purple {
+    background-color: #c490e0;
+  }
+  
+  .puple-hover {
+    background-color: #a86cc1;
+  }
+  
+  .dark-purple {
+    background-color: #9f6fbc;
+  }
+  
+  .dark-purple-hover {
+    background-color: #6c547a;
+  }
+  
+  .light-black {
+    background-color: #535f77;
+  }
+  
+  .light-black-hover {
+    background-color: #42536e;
+  }
+  
+  .black {
+    background-color: #374561;
+  }
+  
+  .black-hover {
+    background-color: #172a4d;
+  }
+  
+  .dark-black {
+    background-color: #0e1e40;
+  }
+  
+  .dark-black-hover {
+    background-color: #000000;
+  }
+  
+  //////////////////////////////////////////// Colors with Opacity ////////////////////////////////////////////
+  
+  .light-green-opacity {
+    background-color: hsla(104, 38%, 79%, 0.4);
+    &:hover {
+      background-color: hsla(110, 46%, 60%, 0.5);
+    }
+  }
+  
+  .green-opacity {
+    background-color: hsla(103, 41%, 62%, 0.4);
+    &:hover {
+      background-color: hsla(108, 43%, 47%, 0.5);
+    }
+  }
+  
+  .dark-green-opacity {
+    background-color: hsla(101, 35%, 49%, 0.4);
+    &:hover {
+      background-color: hsla(101, 49%, 35%, 0.5);
+    }
+  }
+  
+  .light-blue-opacity {
+    background-color: hsla(205, 43%, 72%, 0.4);
+    &:hover {
+      background-color: hsla(202, 67%, 47%, 0.5);
+    }
+  }
+  
+  .blue-opacity {
+    background-color: hsla(203, 52%, 57%, 0.4);
+    &:hover {
+      background-color: hsla(202, 95%, 34%, 0.5);
+    }
+  }
+  
+  .dark-blue-opacity {
+    background-color: hsla(209, 56%, 37%, 0.4);
+    &:hover {
+      background-color: hsla(202, 84%, 24%, 0.5);
+    }
+  }
+  
+  .light-yellow-opacity {
+    background-color: hsla(53, 80%, 79%, 0.4);
+    &:hover {
+      background-color: hsla(53, 91%, 56%, 0.5);
+    }
+  }
+  
+  .yellow-opacity {
+    background-color: hsla(53, 83%, 55%, 0.4);
+    &:hover {
+      background-color: hsla(51, 92%, 47%, 0.5);
+    }
+  }
+  
+  .dark-yellow-opacity {
+    background-color: hsla(50, 72%, 57%, 0.4);
+    &:hover {
+      background-color: hsla(45, 65%, 49%, 0.5);
+    }
+  }
+  
+  .light-sky-opacity {
+    background-color: hsla(190, 62%, 77%, 0.4);
+    &:hover {
+      background-color: hsla(188, 79%, 52%, 0.5);
+    }
+  }
+  
+  .sky-opacity {
+    background-color: hsla(192, 66%, 63%, 0.4);
+    &:hover {
+      background-color: hsla(189, 98%, 40%, 0.5);
+    }
+  }
+  
+  .dark-sky-opacity {
+    background-color: hsla(195, 44%, 50%, 0.4);
+    &:hover {
+      background-color: hsla(191, 98%, 32%, 0.5);
+    }
+  }
+  
+  .light-orange-opacity {
+    background-color: hsla(35, 80%, 80%, 0.4);
+    &:hover {
+      background-color: hsla(35, 100%, 62%, 0.5);
+    }
+  }
+  
+  .orange-opacity {
+    background-color: hsla(33, 86%, 60%, 0.4);
+    &:hover {
+      background-color: hsla(36, 83%, 50%, 0.5);
+    }
+  }
+  
+  .dark-orange-opacity {
+    background-color: hsla(38, 81%, 52%, 0.4);
+    &:hover {
+      background-color: hsla(38, 86%, 38%, 0.5);
+    }
+  }
+  
+  .light-lime-opacity {
+    background-color: hsla(148, 69%, 82%, 0.4);
+    &:hover {
+      background-color: hsla(148, 77%, 68%, 0.5);
+    }
+  }
+  
+  .lime-opacity {
+    background-color: hsla(141, 67%, 74%, 0.4);
+    &:hover {
+      background-color: hsla(143, 62%, 57%, 0.5);
+    }
+  }
+  
+  .dark-lime-opacity {
+    background-color: hsla(133, 40%, 58%, 0.4);
+    &:hover {
+      background-color: hsla(127, 40%, 48%, 0.5);
+    }
+  }
+  
+  .light-red-opacity {
+    background-color: hsla(8, 55%, 79%, 0.4);
+    &:hover {
+      background-color: hsla(8, 81%, 66%, 0.5);
+    }
+  }
+  
+  .red-opacity {
+    background-color: hsla(9, 65%, 65%, 0.4);
+    &:hover {
+      background-color: hsla(8, 60%, 53%, 0.5);
+    }
+  }
+  
+  .dark-red-opacity {
+    background-color: hsla(10, 49%, 51%, 0.4);
+    &:hover {
+      background-color: hsla(12, 59%, 36%, 0.5);
+    }
+  }
+  
+  .light-pink-opacity {
+    background-color: hsla(322, 79%, 87%, 0.4);
+    &:hover {
+      background-color: hsla(323, 100%, 78%, 0.5);
+    }
+  }
+  
+  .pink-opacity {
+    background-color: hsla(320, 73%, 75%, 0.4);
+    &:hover {
+      background-color: hsla(327, 72%, 65%, 0.5);
+    }
+  }
+  
+  .dark-pink-opacity {
+    background-color: hsla(325, 45%, 59%, 0.4);
+    &:hover {
+      background-color: hsla(334, 45%, 47%, 0.5);
+    }
+  }
+  
+  .light-purple-opacity {
+    background-color: hsla(283, 52%, 84%, 0.4);
+    &:hover {
+      background-color: hsla(284, 63%, 73%, 0.5);
+    }
+  }
+  
+  .purple-opacity {
+    background-color: hsla(279, 56%, 72%, 0.4);
+    &:hover {
+      background-color: hsla(282, 41%, 59%, 0.5);
+    }
+  }
+  
+  .dark-purple-opacity {
+    background-color: hsla(277, 36%, 59%, 0.4);
+    &:hover {
+      background-color: hsla(278, 18%, 40%, 0.5);
+    }
+  }
+  
+  .light-black-opacity {
+    background-color: hsla(220, 18%, 40%, 0.4);
+    &:hover {
+      background-color: hsla(217, 25%, 35%, 0.5);
+    }
+  }
+  
+  .black-opacity {
+    background-color: hsla(220, 28%, 30%, 0.4);
+    &:hover {
+      background-color: hsla(219, 54%, 20%, 0.5);
+    }
+  }
+  
+  .dark-black-opacity {
+    background-color: hsla(221, 64%, 15%, 0.4);
+    &:hover {
+      background-color: hsla(0, 0%, 0%, 0.5);
+    }
+  }
+  

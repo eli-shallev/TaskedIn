@@ -1,0 +1,120 @@
+.login-signup {
+    display: flex;
+    flex-direction: column;
+
+    .logo {
+        margin: 40px auto;
+        width: 200px;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 500px;
+        padding: 25px 40px;
+        margin: 0 auto;
+        box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
+
+        .form-header {
+            display: flex;
+            margin: 10px 0 25px;
+
+            .title {
+                font-weight: 700;
+                color: #5e6c84;
+                text-align: center;
+                width: 100%;
+            }
+
+
+        }
+
+        .form-content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+
+            input {
+                height: 40px;
+                margin-bottom: 16px;
+                padding-left: 8px;
+                background-color: #fafbfc;
+                border: 1px $clr9 solid;
+                border-radius: 3px;
+
+                &:focus {
+                    outline-color: $clr1;
+                }
+            }
+
+            .btn-login {
+                height: 36px;
+                background-color: #5aac44;
+                border-radius: 4px;
+                font-weight: 800;
+                margin: 0;
+                margin-top: 4px;
+
+                &:hover {
+                    box-shadow: inset 0 0 0 50px rgba(255, 255, 255, 0.15);
+                }
+            }
+        }
+
+        hr {
+            width: 100%;
+            margin: 0;
+        }
+
+        .form-footer {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            margin: 14px 0;
+
+            span {
+                font-size: 14px;
+                color: $clr1;
+                width: 100%;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .left-img {
+        width: 25vw;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .right-img {
+        width: 25vw;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    @media (max-width:1000px) {
+
+        .left-img,
+        .right-img {
+            display: none;
+        }
+    }
+
+
+    @media (max-width:600px) {
+        .login-form {
+            position: fixed;
+            left: 50%;
+            translate: -50%;
+            top: 20%;
+            box-shadow: none;
+        }
+    }
+
+
+}

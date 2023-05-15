@@ -1,0 +1,21 @@
+.main-header-color-picker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    translate: 100%;
+    height: 0;
+
+    &.open{
+        translate: 0;
+        transition: translate 0.3s ;
+        height: auto;
+    }
+
+    .circle-picker{
+        div{
+            border-radius: 2px !important;
+        }
+    }
+}

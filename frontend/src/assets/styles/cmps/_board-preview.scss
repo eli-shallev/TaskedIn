@@ -1,0 +1,16 @@
+.board-preview{
+    height: 100%;
+    border-radius: 1px;
+    padding: 8px;
+    color: $clr6;
+
+    &:hover{
+        box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+    }
+
+    .board-title{
+        font-weight: 700;
+        line-height: 20px;
+        text-shadow: 0 0 2px black;
+    }
+}

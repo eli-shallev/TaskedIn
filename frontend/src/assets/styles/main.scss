@@ -1,0 +1,73 @@
+// Setup
+@import "setup/typography";
+@import "setup/functions";
+@import "setup/variables";
+@import "setup/mixins";
+
+// Basics
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/base";
+@import "basics/links";
+@import "basics/forms";
+
+
+// Views
+@import "views/about-us";
+@import "views/home-page";
+@import "views/workspace";
+@import "views/user-details";
+@import "views/task-details";
+
+// Components
+
+@import "cmps/app-header";
+@import "cmps/app-footer";
+@import "cmps/workspace";
+@import "cmps/board-header";
+@import "cmps/board-details";
+@import "cmps/quick-edit-menu";
+@import "cmps/group-preview";
+@import "cmps/task-preview-icons";
+@import "cmps/task-list";
+@import "cmps/task-details-header";
+@import "cmps/task-detail-modal";
+@import "cmps/task-description";
+@import "cmps/task-details-activities";
+@import "cmps/attachment/display-attachment";
+@import "cmps/check-list";
+@import "cmps/checklist/todo-preview";
+@import "cmps/members/members";
+@import "cmps/board-add";
+@import "./cmps/labels/color-picker";
+@import "./cmps/labels/label-colors";
+@import "./cmps/labels/labels";
+@import "cmps/board-list";
+@import "cmps/board-preview";
+@import "cmps/group-list";
+@import "cmps/group-add";
+@import "cmps/group-title";
+@import "cmps/task-preview";
+@import "cmps/group-actions";
+@import "cmps/board-filter";
+@import "cmps/main-header.scss";
+@import "cmps/member-modal";
+@import "cmps/filter-modal";
+@import "cmps/board-starred-list";
+@import "cmps/board-search-list";
+@import "cmps/board-recent-list";
+@import "cmps/side-menu";
+@import "cmps/main-header-color-picker.scss";
+@import "cmps/board-color-picker";
+@import "cmps/board-img-picker";
+@import "cmps/board-custom-img";
+@import "cmps/cover/cover-colors";
+@import "cmps/cover/task-cover";
+@import "cmps/cover/cover-attachments";
+@import "cmps/cover/cover-unsplah";
+@import "cmps/dates/dates";
+@import "cmps/login-signup.scss";
+
+
+
+

@@ -1,0 +1,61 @@
+.filter-modal{
+    position: absolute;
+    width: 380px;
+    min-height: 170px;
+    top: 100%;
+    right: 0.5em;
+    background-color: $clr6;
+    padding: 12px;
+    border: 1px solid $clr9;
+    border-radius: 0.3em;
+
+    .modal-header{
+        display: flex;
+        align-items: center;
+        span{
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .btn-close-modal{
+            position: absolute;
+            right: 12px;
+            background: none;
+            padding: 0;
+            margin: 0;
+            font-size: 1.3em; 
+            height: 20.8px;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+
+        label{
+            font-size: 0.8em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        input{
+            height: 36px;
+            background-color: lighten($clr8, 2) ;
+            border: solid 2px darken($clr9, 10)  ;
+            padding-left: 0.5em;
+
+            &:hover{
+                background-color: $clr8;
+            }
+
+            &:focus{
+                outline-color: $clr1;
+            }
+        }
+    }
+
+    @media (max-width:500px) {
+        max-width:300px;
+        right: 32px;
+    }
+}

@@ -1,0 +1,81 @@
+.todo-preview {
+  position: relative;
+  border-radius: 3px;
+  min-height: 36px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 6px;
+  transition-duration: 0.14s;
+  transition-property: transform, opacity, height, padding, margin;
+  transition-timing-function: ease-in;
+  flex-wrap: wrap;
+
+  &.edit-open {
+    .checkbox-container {
+      align-self: flex-start;
+    }
+  }
+
+  &:hover {
+    background-color: #091e420a;
+  }
+
+  input {
+    margin-left: 3px;
+    margin-right: 17px;
+
+    
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .title {
+    flex: 1;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+      cursor: pointer;
+
+      button {
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        font-size: 16px;
+        padding: 4px;
+        text-align: center;
+
+        &:hover {
+          background-color: #091e4214;
+        }
+      }
+    }
+
+    button {
+      background-color: transparent;
+      display: none;
+    }
+
+    p {
+      &.crossed-out {
+        text-decoration-line: line-through;
+      }
+    }
+  }
+
+  textarea {
+    &:focus {
+      margin-top: 1px;
+      padding-left: 12px;
+      margin-bottom: 5px;
+      height: 55px;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}

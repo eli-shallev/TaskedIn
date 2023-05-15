@@ -1,0 +1,57 @@
+// COLORS
+
+// App-header colors
+$clr30: #ffffff; // Header bg & Get trello... btn color
+$clr31: #172b4da9; // Log-in btn color
+$clr32: #0066ffe4; // Get trello... btn bg
+$clr33: #011458a1; // Get trello... btn bg Hover
+
+// Home-page colors
+$clr34: #ffffff; // signup-main-section bg & UI card bg & logo-carousel bg & see-main-section & discover-btn bg & first-centered-main bg
+$clr35: #0065ff; // signin-btn bg & border
+$clr36: #dfe1e6; // signin-input border
+$clr37: #171781; 
+$clr38: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto repeat scroll padding-box border-box rgb(139, 189, 255); // UI section
+$clr39: #091e42; // UI card color
+$clr40: #091e4226 0px 0.5rem 1rem 0px; // UI card box shadow
+$clr41: #00c7e5; // UI card left border
+$clr42: #091e4226 0px 0.5rem 1rem 0px; // bottom-carousel box shadow
+$clr43: rgb(103, 103, 103); // carousel square span color
+$clr44: #f4f5f7; // carousel nav arrows
+$clr45: #172b4d; // Explore all Templates btn color
+$clr46: #0065ff; // right-explore-section border color & // discover-btn border & discover-btn color
+$clr47: #0052cc; // a-right
+$clr48: #ffffffb9; // signin-btn color & // powerhouse-link color
+$clr49: #0066ff;
+
+$clr1: #0079bf;
+$clr2: #4f3a65;
+$clr3: #574f7d;
+$clr4: #95adbe;
+$clr5: #dff0ea;
+$clr6: #fff;
+$clr7: #222;
+$clr8: #f5f6f8;
+$clr9: #ecedf0;
+$clr10: #f0d400;
+
+$clr11: #026aa7;
+$clr12: #014a75;
+
+$clr21: #0079bf;
+$clr22: #d29034;
+$clr23: #519839;
+$clr24: #b04632;
+$clr25: #89609e;
+$clr26: #cd5a91;
+$clr27: #4bbf6b;
+$clr28: #00aecc;
+$clr29: #838c91;
+$clr331:#f5dd29;
+
+$board-colors-hover: (darken($clr21,5),darken($clr22,5),darken($clr23,5),darken($clr24,5),darken($clr25,5),darken($clr26,5),darken($clr27,5),darken($clr28,5),darken($clr29,5),darken($clr331,5)); 
+
+// Breakpoints
+$mobile-breakpoint: 460px;
+$narrow-breakpoint: 720px;
+$normal-breakpoint: 960px;

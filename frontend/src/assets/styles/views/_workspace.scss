@@ -1,0 +1,85 @@
+.workspace {
+    max-width: 857px;
+    margin: 0 auto;
+    overflow: auto;
+
+    .your-boards-title {
+        margin-left: 16.5px;
+    }
+
+    .recent-boards-title,
+    .starred-boards-title {
+        margin-left: 16.5px;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        color: $clr45;
+
+        .title {
+            margin-left: 8px;
+            
+        }
+
+        .recent-icon,
+        .star-icon {
+            width: 32px;
+            height: 32px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .starred-boards-title{
+        margin-top: 20px;
+        margin-bottom: 6px;
+    }
+
+    .recent-boards-title{
+        margin-top: 24px;
+        margin-bottom: 6px;
+    }
+
+    .all-boards{
+        margin-top: 30px;
+        .your-boards-title{
+            color: rgb(94, 108, 132);
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    &::-webkit-scrollbar-button {
+        display: none;
+    }
+
+    &::-webkit-scrollbar-track {
+        
+        background-color: rgba(191, 196, 206, 0.5);
+        border-radius: 0.5em;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(191, 196, 206);
+        border-radius: 0.3em;
+    }
+
+    @media (min-width:500px) {
+        .starred-boards-title{
+            margin-top: 40px;
+        }
+    
+        .recent-boards-title{
+            margin-top: 52px;
+        }
+    
+        .all-boards{
+            margin-top: 72px;
+        }
+    }
+}
