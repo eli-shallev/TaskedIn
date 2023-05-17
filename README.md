@@ -1,5 +1,5 @@
 
-# ToyStore
+# TaskedIn
 A fullstack clone app of Trello demonstrating the use of react, node.js, socket.io, express and atlas mongoDB and much more
 [Take a look, it's on Render](https://taskedin.onrender.com/ "Render link")
 
