@@ -86,4 +86,4 @@ Just a taste of the mobile experience. The app is completely responsive
 
 <img src="https://raw.githubusercontent.com/eli-shallev/TaskedIn/main/screenshots/home-m.png" width="50%" style="float: left"/><img src="https://raw.githubusercontent.com/eli-shallev/TaskedIn/main/screenshots/boards-m.png" width="50%" style="float: left;"/>
 
-<img src="https://raw.githubusercontent.com/eli-shallev/TaskedIn/main/screenshots/board-m.png" width="50%" style="float: left;"/> <img src="https://raw.githubusercontent.com/eli-shallev/TaskedIn/main/screenshots/details-m.png" width="50%" style="float: left;"/>
+<img src="https://raw.githubusercontent.com/eli-shallev/TaskedIn/main/screenshots/board-m.png" width="50%" style="float: left;"/><img src="https://raw.githubusercontent.com/eli-shallev/TaskedIn/main/screenshots/details-m.png" width="50%" style="float: left;"/>
